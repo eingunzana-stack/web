@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motos GDM Racing | Inicio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- JavaScript -->
+    <script src="js/index.js" defer></script>
+
+    <!-- Fuentes de Google: Oswald para títulos e Inter para textos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    
+</head>
+<body>
+
+    <header id="navbar" class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img id="logo" src="Assets/img/GDMBLANCO.png" alt="LOGO GDM MOTOS">
+            </a>
+
+            <nav class="desktop-nav">
+                <a href="index.html" class="active">Inicio</a>
+                <a href="pages/nosotros.html">Nosotros</a>
+                <a href="pages/tienda.html">Tienda</a>
+                <a href="pages/financiamiento.html">Financiamiento</a>
+                <a href="pages/contacto.html">Contacto</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button id="search-btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <button id="cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-badge" id="cart-count">0</span>
+                </button>
+            </div>
+
+            <button id="mobile-menu-btn" class="mobile-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="#" class="active">Inicio</a>
+            <a href="#">Tienda</a>
+            <a href="#">Financiamiento</a>
+            <a href="#">Contacto</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <img src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=1920&q=80" alt="Moto de noche" class="hero-bg">
+        <div class="hero-shape"></div>
+
+        <div class="container hero-content">
+            <div class="hero-text reveal-left">
+                <h1>TÚ PRÓXIMA <br>MOTO TE ESPERA</h1>
+                <p>Descubre en Motos GDM Racing la adrenalina sobre dos ruedas. Contamos con amplia variedad y financiamiento a tu medida.</p>
+                <a href="#" class="btn btn-orange">Ver Catálogo <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <div class="brands-section">
+        <div class="container brands-container reveal">
+            <img class="img-into" id="dynavolt" src="Assets/img/dynavolt.png" alt="Logo Dynavolt">
+            <img class="img-into" id="kyt" src="Assets/img/kyt.png" alt="Logo kyt">
+            <img class="img-into" id="suomy" src="Assets/img/suomy.png" alt="Logo suomy">
+            <img class="img-into" id="masontex" src="Assets/img/masontex.png" alt="Logo masontex">
+        </div>
+    </div>
+
+    <!-- sección productos - motos destacdas -->
+    
+    <section class="featured-section">
+        <div class="giant-bg-text font-heading">GDM VZ200</div>
+        
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Motos Destacadas</h2>
+                <p>Descubre los modelos más buscados por nuestros clientes. Calidad y rendimiento en cada curva.</p>
+            </div>
+
+            <div class="featured-grid">
+    <div class="featured-img-container reveal-left">
+        <span class="new-badge">NUEVO INGRESO</span>
+        <img
+    id="slider-img"
+    src="Assets/img/MODELO1.png"
+    alt="GDM VZ200"
+    data-name="GDM VZ200"
+    data-price="7099">
+        <div class="slider-dots">
+            <button class="dot active" data-index="0"></button>
+            <button class="dot" data-index="1"></button>
+            <button class="dot" data-index="2"></button>
+        </div>
+    </div>
+
+    <div class="featured-details reveal-right">
+        <h3 id="slider-title">GDM VZ200</h3>
+        <div class="features-list">
+            <div class="feature-item">
+                <i class="fa-solid fa-bolt"></i>
+                <div>
+                    <span>Potencia</span>
+                    <strong id="slider-power">18.57HP a 7500 rpm</strong>
+                </div>
+            </div>
+            <div class="feature-item">
+                <i class="fa-solid fa-gear"></i>
+                <div>
+                    <span>Transmisión</span>
+                    <strong id="slider-transmission">Mecánica 5 velocidades</strong>
+                </div>
+            </div>
+            <div class="feature-item feature-price">
+                <i class="fa-solid fa-tag"></i>
+                <div>
+                    <span>Precio</span>
+                    <strong id="slider-price">S/.7,099.00</strong>
+                </div>
+            </div>
+        </div>
+        <div class="product-buttons">
+
+    <a href="#" class="btn btn-blue">
+        Ver catálogo completo
+    </a>
+
+    <button class="btn btn-orange add-cart">
+        <i class="fa-solid fa-cart-plus"></i>
+        Agregar al carrito
+    </button>
+
+</div>
+    </div>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- banner CTA -->
+    <section class="cta-banner">
+        <div class="cta-overlay"></div>
+        <div class="container">
+            <div class="cta-banner-content reveal">
+                <h2>NO VENDEMOS MOTOS<br>ENTREGAMOS LIBERTAD</h2>
+                <p>Da el primer paso. ¡Cotiza tu moto ahora!</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-orange">Cotizar Ahora</a>
+                    <a href="#" class="btn btn-outline">Saber Más</a>
+                </div>
+            </div>
+            <img  id="GDMBLANCO" src="Assets/img/logo_final.png" alt="Logo GDMBLANCO">
+        </div>
+    </section>
+
+    <!-- Sección por qué elegirnos -->
+    <section class="why-us">
+        <div class="container why-grid">
+            <div class="why-image-wrapper reveal-left">
+                <div class="why-arrows"><i class="fa-solid fa-angles-right"></i></div>
+                <img id="garantía" src="Assets/img/garantía.png" alt="garantía">
+            </div>
+
+            <div class="why-content reveal-right">
+                <h2>¿POR QUÉ ELEGIRNOS?</h2>
+                <p>Conoce los beneficios de comprar tu moto con nosotros.</p>
+
+                <div class="benefits-list">
+    <div class="benefit-card active">
+        <i class="fa-solid fa-check"></i>
+        <div>
+            <h4>Garantía de fábrica</h4>
+            <p>Compra tu moto con confianza, contamos con garantía de fábrica extendida en todos nuestros modelos.</p>
+        </div>
+    </div>
+    
+    <div class="benefit-card">
+        
+            <i class="fa-solid fa-user-shield">
+
+            </i>
+        
+        <div>
+            <h4>Atención Personalizada</h4>
+            <p>Nuestro equipo de expertos te asesorará de principio a fin para que encuentres el modelo ideal.</p>
+        </div>
+    </div>
+    
+    <div class="benefit-card">
+        <i class="fa-solid fa-truck-fast"></i>
+        <div>
+            <h4>Entregas Rápidas</h4>
+            <p>Gestionamos todos los trámites de forma ágil para que salgas rodando lo antes posible.</p>
+        </div>
+    </div>
+    
+    <div class="benefit-card">
+        <i class="fa-solid fa-tags"></i>
+        <div>
+            <h4>Mejores Precios</h4>
+            <p>Ofrecemos los precios más competitivos del mercado y opciones de financiamiento a tu medida.</p>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    </section>
+<!-- Sección count up-->
+    <section class="stats">
+    <div class="container stats-grid reveal">
+        <div class="stat-item">
+            <h3 data-target="500">0+</h3>
+            <p>Vehículos Vendidos</p>
+        </div>
+        <div class="stat-item">
+            <h3 data-target="15">0+</h3>
+            <p>Años de Experiencia</p>
+        </div>
+        <div class="stat-item">
+            <h3 data-target="98">0%</h3>
+            <p>Clientes Satisfechos</p>
+        </div>
+        <div class="stat-item">
+            <h3 data-target="24">0/7</h3>
+            <p>Soporte</p>
+        </div>
+    </div>
+</section>
+<!-- banner ofertas -->
+    <section class="offers">
+        <div class="offers-overlay"></div>
+        <div class="container offers-content reveal">
+            <h2>OFERTAS ESPECIALES DEL MES</h2>
+            <p>Aprovecha nuestros descuentos exclusivos con financiamiento de hasta 36 meses.</p>
+            
+            <div class="offers-list">
+                <div class="offer-item">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Bono de descuento de hasta $500</span>
+                </div>
+                <div class="offer-item">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Mantenimiento gratuito (1er año)</span>
+                </div>
+                <div class="offer-item">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Casco certificado de regalo</span>
+                </div>
+            </div>
+        </div>
+        <div class="down-arrows reveal">
+            <i class="fa-solid fa-chevron-down"></i>
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+    </section>
+<!-- Sección financiamiento -->
+    <section class="finance">
+        <div class="container">
+            <div class="finance-box reveal">
+                <div class="finance-form">
+                    <h2>CALCULA TU FINANCIAMIENTO</h2>
+                    <form>
+                        <div class="form-row">
+                            <div>
+                                <label class="form-label">Nombre *</label>
+                                <input type="text" class="form-control" placeholder="Tu nombre">
+                            </div>
+                            <div>
+                                <label class="form-label">Apellido *</label>
+                                <input type="text" class="form-control" placeholder="Tu apellido">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Email *</label>
+                            <input type="email" class="form-control" placeholder="correo@ejemplo.com">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Tipo de Moto *</label>
+                            <select class="form-control">
+                                <option value="">Selecciona un modelo</option>
+                                <option value="mt07">SWORD 250</option>
+                                <option value="r3">SWORD 200</option>
+                                <option value="ninja">VZ200</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Cuota Inicial *</label>
+                            <input type="text" class="form-control" placeholder="S/. Monto inicial">
+                        </div>
+                        <button type="button" class="btn btn-orange btn-submit">Solicitar Cotización</button>
+                    </form>
+                </div>
+                <div class="finance-info">
+                    <img id="moto dorada" src="Assets/img/motogdm1.png" alt="Moto dorada">
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h4>TELÉFONO</h4>
+                            <p>+51 946 225 995</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>EMAIL</h4>
+                            <p class="orange">hola@gdmracing.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>DIRECCIÓN</h4>
+                            <p>Calle Yurumayo Mza. J Lote Sub2 Urb. Los Huertos de Naranjal, San Martín de Porres, Lima, Peru<br>Atención: Lunes a Sábado de 9am a 6pm.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Sección IG gdm -->
+    <div class="instagram-banner reveal">
+    <a href="https://www.instagram.com/gdmracing.latam" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-instagram"></i> @gdmracing.latam
+    </a>
+</div>
+
+
+<!--antes del footer-->
+
+<!-- buscador moto-->
+
+<div id="search-overlay"></div>
+
+<aside class="search-panel" id="search-panel">
+
+    <div class="search-header">
+
+        <h2>
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            Buscar Moto
+
+        </h2>
+
+        <button id="close-search">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+    </div>
+
+    <div class="search-body">
+
+        <input
+            type="text"
+            id="search-input"
+            placeholder="Buscar motocicleta...">
+
+        <div id="search-results">
+
+            <p class="empty-search">
+
+                Escribe el nombre de una moto.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</aside>
+
+
+<!-- Overlay carrito compra-->
+
+<div id="cart-overlay"></div>
+
+<!-- Carrito -->
+
+<aside class="shopping-cart" id="shopping-cart">
+
+    <div class="cart-header">
+
+        <h2>
+            <i class="fa-solid fa-cart-shopping"></i>
+            Mi Carrito
+        </h2>
+
+        <button id="close-cart">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+    </div>
+
+    <div id="cart-items">
+
+        <p class="empty-cart">
+            Tu carrito está vacío.
+        </p>
+
+    </div>
+
+    <div class="cart-footer">
+
+        <div class="cart-total">
+
+            <span>Total</span>
+
+            <strong id="cart-total">
+                S/.0.00
+            </strong>
+
+        </div>
+
+        <button class="btn btn-orange checkout-btn">
+            Finalizar Compra
+        </button>
+
+    </div>
+
+</aside>
+
+<!-- Sección footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid reveal">
+                <div class="footer-about">
+                    <a href="index.html" class="footer-logo">
+                        <a href="#" class="logo">
+                <img id="GDMRACING" src="Assets/img/GDMRACING.png" alt="LOGO GDM MOTOS">
+            </a>
+                    </a>
+                    <p>Tu pasión por las motos es la nuestra. Encuentra los mejores modelos, repuestos y accesorios con garantía y respaldo oficial.</p>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">NUESTRA EMPRESA</h4>
+                    <ul class="footer-links">
+                        <li><a href="pages/nosotros.html">Nosotros</a></li>
+                        <li><a href="#">Misión y Visión</a></li>
+                        <li><a href="#">Noticias / Blog</a></li>
+                        <li><a href="#">Trabaja con nosotros</a></li>
+                        <li><a href="#">Contáctanos</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">MI CUENTA</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Mi Perfil</a></li>
+                        <li><a href="#">Historial de Pedidos</a></li>
+                        <li><a href="#">Lista de Deseos</a></li>
+                        <li><a href="#">Rastrear Pedido</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">ATENCIÓN AL CLIENTE</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        <li><a href="#">Políticas de Privacidad</a></li>
+                        <li><a href="#">Políticas de Cambios</a></li>
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Libro de Reclamaciones</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom reveal">
+    <div class="social-links">
+        <a href="https://www.facebook.com/GDMRacingLatam" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/gdmracing.latam" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.tiktok.com/@motosgdmracing" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-tiktok"></i>
+        </a>
+        <a href="https://www.youtube.com/@MotosGDMRacing" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-youtube"></i>
+        </a>
+    </div>
+    <div class="copyright">
+        © 2026 Motos GDM Racing. Todos los derechos reservados.
+    </div>
+</div>
+        </div>
+    </footer>
+
+</body>
+</html>

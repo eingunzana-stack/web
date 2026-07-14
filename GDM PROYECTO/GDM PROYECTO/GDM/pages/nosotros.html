@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros | Motos GDM Racing (CSS Puro)</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/nosotros.css">
+
+    <!-- JavaScript -->
+    <script src="../js/nosotros.js" defer></script>
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+
+</head>
+<body>
+
+    <header id="navbar" class="header">
+        <div class="container nav-container">
+            <!-- Logo -->
+            <a href="../index.html" class="logo">
+                <img id="logo" src="../Assets/img/GDMBLANCO.png" alt="LOGO GDM MOTOS">
+            </a>
+
+            <!-- Desktop Menu -->
+            <nav class="desktop-nav">
+                <a href="../index.html">Inicio</a>
+                <a href="nosotros.html" class="active">Nosotros</a>
+                <a href="tienda.html">Tienda</a>
+                <a href="financiamiento.html">Financiamiento</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+
+            <!-- Icons -->
+            <div class="nav-actions">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-badge">0</span>
+                </button>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <button id="mobile-menu-btn" class="mobile-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="../index.html">Inicio</a>
+            <a href="nosotros.html" class="active">Nosotros</a>
+            <a href="#">Modelos</a>
+            <a href="#">Repuestos</a>
+            <a href="financiamiento.html">Financiamiento</a>
+            <a href="#">Contacto</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <img src="../Assets/img/bannosotros.png" alt="Motociclistas en ruta" class="hero-bg">
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+            <div class="reveal-left">
+                <span class="hero-badge">Nuestra Historia</span>
+                <h1 class="hero-title">Pasión por las <br><span class="text-orange">dos ruedas</span></h1>
+                <p class="hero-desc">
+                    Desde nuestros inicios, en Motos GDM Racing hemos tenido un solo objetivo: llevar la adrenalina, la libertad y la mejor tecnología a cada motociclista. Somos tu aliado experto en cada kilómetro recorrido.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-white">
+        <div class="container about-grid">
+            <!-- Imagen -->
+            <div class="about-image-wrapper reveal-left">
+                <div class="about-image-bg"></div>
+                <img src="../Assets/img/GRUPOGDM.png" alt="GRUPOGDM" class="about-img">
+                <div class="about-decoration">
+                    <i class="fa-solid fa-motorcycle"></i>
+                    <p>Expertos en<br>Rendimiento</p>
+                </div>
+            </div>
+
+            <!-- Contenido -->
+            <div class="about-text reveal-right">
+                <h2 class="about-title text-blue">Más de una década acelerando corazones</h2>
+                <div class="divider"></div>
+                
+                <p>En <strong>Motos GDM Racing</strong> no solo vendemos vehículos; entregamos experiencias, seguridad y estilo de vida. Nacimos de la necesidad de ofrecer al mercado local motocicletas de alto rendimiento con un respaldo técnico impecable.</p>
+                
+                <p>Trabajamos con las marcas más prestigiosas a nivel mundial, garantizando que cada modelo que sale de nuestras sucursales cumple con los más altos estándares de calidad. Nuestro equipo está conformado por pilotos, mecánicos y asesores apasionados.</p>
+
+                <div class="mission-vision">
+                    <div class="mv-item">
+                        <h4><i class="fa-solid fa-bullseye text-orange"></i> Nuestra Misión</h4>
+                        <p>Brindar soluciones de movilidad motorizadas con excelencia, asegurando la total satisfacción de nuestra comunidad.</p>
+                    </div>
+                    <div class="mv-item">
+                        <h4><i class="fa-solid fa-eye text-orange"></i> Nuestra Visión</h4>
+                        <p>Ser el concesionario referente a nivel nacional en venta y post-venta, reconocidos por nuestra innovación.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section values-section">
+        <div class="values-bg-text">VALORES</div>
+
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="text-blue">Lo que nos impulsa</h2>
+                <p>Nuestros valores fundamentales son el motor de cada decisión que tomamos y cada moto que entregamos.</p>
+            </div>
+
+            <div class="values-grid">
+                <!-- Valor 1 -->
+                <div class="value-card orange-hover reveal">
+                    <div class="value-icon"><i class="fa-solid fa-fire-flame-curved"></i></div>
+                    <h3>Pasión</h3>
+                    <p>Vivimos y respiramos el motociclismo. Transmitimos esa misma energía en cada interacción con nuestros clientes.</p>
+                </div>
+
+                <!-- Valor 2 -->
+                <div class="value-card blue-hover reveal" style="transition-delay: 100ms;">
+                    <div class="value-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>Calidad</h3>
+                    <p>Solo ofrecemos vehículos y repuestos de las mejores marcas, garantizando durabilidad y máximo rendimiento.</p>
+                </div>
+
+                <!-- Valor 3 -->
+                <div class="value-card orange-hover reveal" style="transition-delay: 200ms;">
+                    <div class="value-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+                    <h3>Compromiso</h3>
+                    <p>Nuestro trato no termina con la venta. Brindamos un servicio post-venta y soporte técnico inigualable.</p>
+                </div>
+
+                <!-- Valor 4 -->
+                <div class="value-card blue-hover reveal" style="transition-delay: 300ms;">
+                    <div class="value-icon"><i class="fa-solid fa-helmet-safety"></i></div>
+                    <h3>Seguridad</h3>
+                    <p>Fomentamos la cultura del manejo responsable. Tu integridad en las pistas y carreteras es nuestra prioridad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section">
+        <div class="stats-overlay"></div>
+        <div class="container">
+            <div class="stats-grid reveal">
+                <div class="stat-item">
+                    <i class="fa-solid fa-users stat-icon"></i>
+                    <div class="stat-number font-heading">+10K</div>
+                    <div class="stat-label">Clientes Felices</div>
+                </div>
+                <div class="stat-item">
+                    <i class="fa-solid fa-shop stat-icon"></i>
+                    <div class="stat-number font-heading">+15</div>
+                    <div class="stat-label">Sucursales Activas</div>
+                </div>
+                <div class="stat-item">
+                    <i class="fa-solid fa-calendar-check stat-icon"></i>
+                    <div class="stat-number font-heading">12</div>
+                    <div class="stat-label">Años de Experiencia</div>
+                </div>
+                <div class="stat-item">
+                    <i class="fa-solid fa-award stat-icon"></i>
+                    <div class="stat-number font-heading">100%</div>
+                    <div class="stat-label">Garantía Oficial</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-wrapper container ">
+        <div class="cta-box">
+            <div class="cta-content">
+                <h2 class="font-heading">¿Listo para empezar tu próxima aventura?</h2>
+                <p>Únete a la familia GDM Racing hoy mismo. Nuestro equipo de asesores está listo para ayudarte a encontrar la moto perfecta que se adapte a tu estilo y presupuesto.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-blue">Ver Catálogo <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#" class="btn btn-outline">Contactar Asesor</a>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    <div class="spacer"></div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid reveal">
+                <div class="footer-about">
+                    <a href="../index.html" class="footer-logo">
+                        <a href="../index.html" class="logo">
+                <img id="GDMRACING" src="../Assets/img/GDMRACING.png" alt="LOGO GDM MOTOS">
+            </a>
+                    </a>
+                    <p>Tu pasión por las motos es la nuestra. Encuentra los mejores modelos, repuestos y accesorios con garantía y respaldo oficial.</p>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">NUESTRA EMPRESA</h4>
+                    <ul class="footer-links">
+                        <li><a href="../pages/nosotros.html">Nosotros</a></li>
+                        <li><a href="#">Misión y Visión</a></li>
+                        <li><a href="#">Noticias / Blog</a></li>
+                        <li><a href="#">Trabaja con nosotros</a></li>
+                        <li><a href="#">Contáctanos</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">MI CUENTA</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Mi Perfil</a></li>
+                        <li><a href="#">Historial de Pedidos</a></li>
+                        <li><a href="#">Lista de Deseos</a></li>
+                        <li><a href="#">Rastrear Pedido</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">ATENCIÓN AL CLIENTE</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        <li><a href="#">Políticas de Privacidad</a></li>
+                        <li><a href="#">Políticas de Cambios</a></li>
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Libro de Reclamaciones</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom reveal">
+    <div class="social-links">
+        <a href="https://www.facebook.com/GDMRacingLatam" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/gdmracing.latam" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.tiktok.com/@motosgdmracing" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-tiktok"></i>
+        </a>
+        <a href="https://www.youtube.com/@MotosGDMRacing" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-youtube"></i>
+        </a>
+    </div>
+    <div class="copyright">
+        © 2026 Motos GDM Racing. Todos los derechos reservados.
+    </div>
+</div>
+        </div>
+    </footer>
+
+
+</body>
+</html>

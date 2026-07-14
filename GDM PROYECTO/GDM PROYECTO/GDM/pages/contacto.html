@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finaciamiento | Motos GDM Racing (CSS Puro)</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/financiamiento.css">
+
+    <!-- JavaScript -->
+    <script src="../js/financiamiento.js" defer></script>
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+
+</head>
+<body>
+
+    <header id="navbar" class="header">
+        <div class="container nav-container">
+            <!-- Logo -->
+            <a href="../index.html" class="logo">
+                <img id="logo" src="../Assets/img/GDMBLANCO.png" alt="LOGO GDM MOTOS">
+            </a>
+
+            <!-- Desktop Menu -->
+            <nav class="desktop-nav">
+                <a href="../index.html">Inicio</a>
+                <a href="nosotros.html" >Nosotros</a>
+                <a href="tienda.html">Tienda</a>
+                <a href="financiamiento.html">Financiamiento</a>
+                <a href="contacto.html"class="active">Contacto</a>
+            </nav>
+
+            <!-- Icons -->
+            <div class="nav-actions">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-badge">0</span>
+                </button>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <button id="mobile-menu-btn" class="mobile-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="../index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="#">Tienda</a>
+            <a href="financiamiento.html" class="active">Financiamiento</a>
+            <a href="#">Contacto</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <img src="../Assets/img/bannosotros.png" alt="Motociclistas en ruta" class="hero-bg">
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+            <div class="reveal-left">
+                <span class="hero-badge">Contáctanos</span>
+                <h1 class="hero-title">Hablemos de tu <br><span class="text-orange">próxima aventura </span></h1>
+                <p class="hero-desc">
+                    Estamos disponibles para responder tus consultas, ayudarte con tus compras y ofrecerte la mejor experiencia en GDM Racing.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="finance">
+        <div class="container">
+            <div class="finance-box reveal">
+                <div class="finance-form">
+                    <h2>CALCULA TU FINANCIAMIENTO</h2>
+                    <form>
+                        <div class="form-row">
+                            <div>
+                                <label class="form-label">Nombre *</label>
+                                <input type="text" class="form-control" placeholder="Tu nombre">
+                            </div>
+                            <div>
+                                <label class="form-label">Apellido *</label>
+                                <input type="text" class="form-control" placeholder="Tu apellido">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Email *</label>
+                            <input type="email" class="form-control" placeholder="correo@ejemplo.com">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Tipo de Moto *</label>
+                            <select class="form-control">
+                                <option value="">Selecciona un modelo</option>
+                                <option value="mt07">SWORD 250</option>
+                                <option value="r3">SWORD 200</option>
+                                <option value="ninja">VZ200</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Cuota Inicial *</label>
+                            <input type="text" class="form-control" placeholder="S/. Monto inicial">
+                        </div>
+                        <button type="button" class="btn btn-orange btn-submit">Solicitar Cotización</button>
+                    </form>
+                </div>
+                <div class="finance-info">
+                    <img id="moto dorada" src="../Assets/img/motogdm1.png" alt="Moto dorada">
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h4>TELÉFONO</h4>
+                            <p>+51 946 225 995</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>EMAIL</h4>
+                            <p class="orange">hola@gdmracing.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>DIRECCIÓN</h4>
+                            <p>Calle Yurumayo Mza. J Lote Sub2 Urb. Los Huertos de Naranjal, San Martín de Porres, Lima, Peru<br>Atención: Lunes a Sábado de 9am a 6pm.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid reveal">
+                <div class="footer-about">
+                    <a href="../index.html" class="footer-logo">
+                        <a href="../index.html" class="logo">
+                <img id="GDMRACING" src="../Assets/img/GDMRACING.png" alt="LOGO GDM MOTOS">
+            </a>
+                    </a>
+                    <p>Tu pasión por las motos es la nuestra. Encuentra los mejores modelos, repuestos y accesorios con garantía y respaldo oficial.</p>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">NUESTRA EMPRESA</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Misión y Visión</a></li>
+                        <li><a href="#">Noticias / Blog</a></li>
+                        <li><a href="#">Trabaja con nosotros</a></li>
+                        <li><a href="#">Contáctanos</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">MI CUENTA</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Mi Perfil</a></li>
+                        <li><a href="#">Historial de Pedidos</a></li>
+                        <li><a href="#">Lista de Deseos</a></li>
+                        <li><a href="#">Rastrear Pedido</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">ATENCIÓN AL CLIENTE</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        <li><a href="#">Políticas de Privacidad</a></li>
+                        <li><a href="#">Políticas de Cambios</a></li>
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Libro de Reclamaciones</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom reveal">
+    <div class="social-links">
+        <a href="https://www.facebook.com/GDMRacingLatam" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/gdmracing.latam" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.tiktok.com/@motosgdmracing" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-tiktok"></i>
+        </a>
+        <a href="https://www.youtube.com/@MotosGDMRacing" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-youtube"></i>
+        </a>
+    </div>
+    <div class="copyright">
+        © 2026 Motos GDM Racing. Todos los derechos reservados.
+    </div>
+</div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
